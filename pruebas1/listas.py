@@ -23,3 +23,18 @@ print(lista3)
 
 #para copiar listas usa lista4 = lista3[:]
 #para mas mejor mirar los metodos de las listas en la documentacion o echar un vistazo haciendo lista.
+#las tuplas son algo parecidas, solo que son incambiables, aunque se pueden transformar en listas 
+# y destransformar para cambiarlas
+#se usan con ()
+#los sets son iguales, no se pueden cambiar pero en este caso si se pueden borrar y añadir items, usan {}
+# los diccionarios permiten almacenar informacion en clave:valor
+
+micoche = {
+    "marca": "ford",
+    "año" : 2002,
+    "color" : "rojo" 
+} 
+print(micoche)
+print(micoche["marca"])
+for x in micoche:
+    print(x+": "+ f"{micoche[x]}"+"\n")
