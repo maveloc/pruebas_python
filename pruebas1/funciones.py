@@ -28,5 +28,6 @@ def funcion(n):
     return lambda a : a * n
 
 duplicador = funcion(2)
+triplicador = funcion(3)
 
-print(duplicador(11))
+print(duplicador(11), triplicador(90))
