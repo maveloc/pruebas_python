@@ -26,4 +26,13 @@ while i < 10:
         continue #con continue rompemos el bucle, con un else al final puedes hacer algo
     #cuando se ha cumplico la condicion del while
 
+#y los bucles for... pues bucles for
+cesta = ["lechuga","tofu","kiwi"]
+for x in cesta:
+    print(x)
+    if x == "tofu":
+        break
+
+    
+
 
