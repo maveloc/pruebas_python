@@ -10,7 +10,7 @@ else:
 dia = 3
 
 match dia:
-    case 1 | 2 | 4 | 5 if x == 50:
+    case 1 | 2 | 4 | 5 if x == 112:
         print ("sabado")
     case 3:
         print("lunes")
